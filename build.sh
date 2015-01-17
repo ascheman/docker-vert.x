@@ -11,7 +11,4 @@ if ! test -d ${vertx_dir}
 	fi
 fi
 
-cp -p ../../tut3c-nodyn/tictactoe-server.js .
-
 docker build .
-
